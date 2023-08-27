@@ -19,7 +19,7 @@ html{
     background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #7e7cf3;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -137,7 +137,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: rgb(226, 42, 42);
+    background: rgb(80, 77, 245);
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -153,7 +153,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .scroll-up-btn.show{
-    bottom: 30px;
+    bottom: 500px;
     opacity: 1;
     pointer-events: auto;
 }
@@ -213,9 +213,6 @@ section .title::after{
     background: none;
 }
 
-/* about section styling */
-.about .title::after{
-    content: "Who I am?";
 }
 .about .about-content .left{
     width: 45%;
@@ -303,10 +300,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/* teams section styling */
-.teams .title::after{
-    content: "My Teammates";
-}
+
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
@@ -367,9 +361,6 @@ section .title::after{
 }
 
 /* contact section styling */
-.contact .title::after{
-    content: "Get in touch.";
-}
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
